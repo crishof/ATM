@@ -52,4 +52,9 @@ public class User {
         this.accounts.add(anAcct);
     }
 
+    public String getUuid(){
+        return this.uuid;
+    }
+
+
 }
